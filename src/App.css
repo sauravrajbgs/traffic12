@@ -1,0 +1,81 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body{
+    background-color:black;
+  }
+  #contactPage{
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clientPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  #contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2.5rem auto;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .clientDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.contactForm{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name ,.email ,.msg,.fatherName,.contact,.Address{
+  font-size: medium;
+  width: 100%;
+      max-width: 60rem;
+      margin: 0.5rem;
+      padding: 0.5rem 1rem;
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      background: rgb(40,40,40)
+}
+
+.submitBtn{
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  padding: 0.75rem 3.5rem;
+  }
+  .img{
+    display: flex;
+    flex-direction: column;
+  }
